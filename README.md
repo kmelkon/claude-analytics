@@ -2,6 +2,8 @@
 
 Personal analytics dashboard for Claude Code. Reads your local `~/.claude/` data, optionally runs LLM analysis via Vertex AI, and outputs a self-contained interactive HTML dashboard.
 
+![Dashboard Preview](assets/dashboard-preview.png)
+
 ## What you get
 
 - **Activity heatmap** — GitHub-style grid showing daily usage
@@ -9,6 +11,13 @@ Personal analytics dashboard for Claude Code. Reads your local `~/.claude/` data
 - **Cost analytics** — token usage and cost by model with daily trends
 - **Session explorer** — searchable/filterable table of all sessions
 - **"At a Glance" narrative** — deeply personalized LLM-generated insights about your workflow patterns, what's working, what's not, and features to try
+
+<details>
+<summary>Full dashboard screenshot</summary>
+
+![Full Dashboard](assets/dashboard.png)
+
+</details>
 
 ## Prerequisites
 
